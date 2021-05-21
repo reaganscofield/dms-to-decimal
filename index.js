@@ -11,5 +11,5 @@ function DMS2Decimal(degrees = 0, minutes = 0, seconds = 0, direction = 'N') {
 }
 
 module.exports = (degrees = 0, minutes = 0, seconds = 0, direction = 'N') => {
-    return DMS2Decimal(degrees = 0, minutes = 0, seconds = 0, direction = 'N');
+    return DMS2Decimal(degrees, minutes, seconds, direction);
 }
