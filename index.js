@@ -1,4 +1,4 @@
-function DMS2Decimal(degrees = 0, minutes = 0, seconds = 0, direction = 'N') {
+function DMS2Decimal(degrees, minutes, seconds, direction) {
     const directions = ['N', 'S', 'E', 'W'];
     if(!directions.includes(direction.toUpperCase())) return 0;
     if(!Number(minutes) || minutes < 0 || minutes > 59) return 0;
