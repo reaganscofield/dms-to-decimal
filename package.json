@@ -1,6 +1,6 @@
 {
   "name": "dms-to-decimal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JavaScript library for converting degrees, minutes, and seconds to decimal",
   "main": "index.js",
   "scripts": {
