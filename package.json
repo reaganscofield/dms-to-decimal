@@ -1,17 +1,10 @@
 {
-  "name": "@reaganscofield/dms-to-decimal",
+  "name": "dms-to-decimal",
   "version": "0.0.5",
   "description": "A JavaScript library for converting degrees, minutes, and seconds to decimal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@reaganscofield"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/reaganscofield/dms-to-decimal.git"
   },
   "keywords": [
     "node",
