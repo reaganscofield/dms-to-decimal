@@ -27,7 +27,7 @@ or
     const converDms2Decimal = DMS2Decimal(degree, minutes, seconds, direction);
     console.log(converDms2Decimal); // Output: 46.984722222222224
 
-    // Converting Decimal to Degrees Minutes Sesonds
+    // Converting Decimal to Degrees Minutes Seconds
     const type = 'longitude';
     const decimal = -122.90222222222222;
 
